@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+
+<!-- Content will go here -->
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#brand" class="w3-button w3-bar-item">Brand</a>
+  <a href="#tour" class="w3-button w3-bar-item">Tour</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <align="centre">
+  <img class="mySlides" src="C:\Users\HP\Downloads\pic1.jpg"
+  style="width:100%",style="length:100%">
+  <img class="mySlides" src="C:\Users\HP\Downloads\pic2.jpg"
+  style="width:100%",style="length:80%">
+  <img class="mySlides" src="C:\Users\HP\Downloads\pic3.jpg"
+  style="width:100%",style="length:100%">
+  <img class="mySlides" src="C:\Users\HP\Downloads\pic4.jpg"
+  style="width:100%",style="length:80%">
+</section>
+
+<!-- Brand Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">WE BEAUTYQUEEN</h2>
+  <p class="w3-opacity"><i>I Love Myself</i></p>
+  <p class="w3-justify">When people feel better, they behave better... and makeup has played a huge role in that for all of human history. So, though some may see makeup as frivolous, the degree a person needs it tells us important information as to how society and culture has made them feel. How much effort do they need to make to gain self esteem and allay fears of societal rejection? This is a subconscious cost-benefit analysis. We are hardwired to seek such acceptance from a group or tribe - preening is one way to seek it. So, the intelligent doctor of society sees the symptoms and addresses the real cause. Emotionally secure people's neurology will make less effort on preening when they feel assured of their place in society. And, whist makeup itself is totally okay, the beauty industry is causing massive harm on many levels. We need balance.So, again, love and compassion are the answer.</section>
+
+<!-- Brand Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>Nikki Arora</p>
+    <img src="C:\Users\HP\Downloads\nikki.jpg" alt="Doctor" style="width:40%">
+    <p>Nikki is the skin care Specialist.</p>
+  </article>
+  <article class="w3-third">
+    <p>Paul Charles</p>
+    <img src="C:\Users\HP\Downloads\paul.jpg" alt="Makeup Artist" style="width:35%">
+    <p>Paul is the Makeup Artist.</p>
+  </article>
+  <article class="w3-third">
+    <p>Kiara Kapoor</p>
+    <img src="C:\Users\HP\Downloads\kiara.jpg" alt="Sales Advertizer" style="width:20%">
+    <p>Kiara is the cosmetics advertizer.</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">WeBeautyQueen.css</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
