@@ -1,0 +1,107 @@
+{
+  "meals": {
+    "m1": {
+      "description": "Famous dish of Gujarat!",
+      "name": "Dabeli",
+      "price": 20
+    },
+    "m2": {
+      "description": "The Simplicity of Bihar!",
+      "name": "Litti Chokha",
+      "price": 30
+    },
+    "m3": {
+      "description": "The famous food of Aamchi Mumbai!!",
+      "name": "Misal Pao",
+      "price": 25
+    },
+    "m4": {
+      "description": "King of Street food",
+      "name": "Momos",
+      "price": 60
+    },
+    "m5": {
+      "description": "Another Mumbai street food favourite",
+      "name": "Bombay Sandwich",
+      "price": 170
+    },
+    "m6": {
+      "description": "Tiny Bombs from Bengal",
+      "name": "Puchkas",
+      "price": 80
+    },
+    "m7": {
+      "description": "Rajasthan's heat beating dish",
+      "name": "Bikaneri Kachori",
+      "price": 65
+    },
+    "m8": {
+      "description": "Diet regime dish form Bengal",
+      "name": "Ghugni Chaat",
+      "price": 85
+    },
+    "m9": {
+      "description": "Maharashtra's mouthwatering bhaji with butter oozing Pavs",
+      "name": "Pav Bhaji",
+      "price": 180
+    }
+  },
+  "orders": {
+    "-N13nOi0CeCK_SrQ8hml": {
+      "orderedItems": [
+        {
+          "amount": 4,
+          "id": "m1",
+          "name": "Dabeli",
+          "price": 20
+        },
+        {
+          "amount": 1,
+          "id": "m2",
+          "name": "Litti Chokha",
+          "price": 30
+        },
+        {
+          "amount": 1,
+          "id": "m4",
+          "name": "Momos",
+          "price": 60
+        },
+        {
+          "amount": 1,
+          "id": "m5",
+          "name": "Bombay Sandwich",
+          "price": 170
+        },
+        {
+          "amount": 1,
+          "id": "m6",
+          "name": "Puchkas",
+          "price": 80
+        }
+      ],
+      "user": {
+        "city": "PANCHMAHALS (Godhra)",
+        "name": "Thakur Swati",
+        "postalCode": "38933",
+        "street": "36/A, Housing Society, Godhra Road, Kalol"
+      }
+    },
+    "-N13nwJgzg8085iXVSGK": {
+      "orderedItems": [
+        {
+          "amount": 1,
+          "id": "m3",
+          "name": "Misal Pao",
+          "price": 25
+        }
+      ],
+      "user": {
+        "city": "PANCHMAHALS (Godhra)",
+        "name": "Thakur Swati",
+        "postalCode": "38933",
+        "street": "36/A, Housing Society, Godhra Road, Kalol"
+      }
+    }
+  }
+}
